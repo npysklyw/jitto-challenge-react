@@ -1,0 +1,25 @@
+I wanted to provide you with an overview of the approach I took while working on the challenge, along with some of the challenges I encountered during the process.
+
+I built my solution using React, as it offered a flexible and efficient way to develop the required functionalities. Here's a breakdown of my process:
+
+Frontend Development:
+In the initial stage, I leveraged the Material-UI library to enhance the frontend's appearance using prebuilt components. This helped create a visually appealing interface right from the start. I crafted distinct pages and ensured that individual elements, such as product lists and cart items, could be rendered and managed independently.
+
+Navigation and User Experience:
+To facilitate seamless navigation, I integrated the react-router-dom library to create a dynamic routing system. This allowed users to explore different sections of the application conveniently.
+
+Authentication and Misunderstanding:
+At one point, I misunderstood the requirements regarding the use of AWS SDK and interpreted that we could rely on libraries like amazon-cognito-identity-js instead. To work within this context, I sought out relevant resources to understand and implement the necessary functions. However, upon clarification from you, I realized that this approach wasn't optimal. My implementation with this resource does work , and you can register, login, and signout as instructed. 
+
+Backend Integration and Challenges:
+I proceeded to explore AWS services such as API Gateway and Cognito for the backend integration. I set up an API Gateway and designed Lambda functions to handle signup, signin, and logout operations. While this approach seemed promising, I encountered issues with getting the Lambda functions to work as intended due to the limitations on authentication requests.
+
+Overcoming Hurdles and Future Steps:
+In order to address these challenges, I recognize the need for further research into Lambda functions and API Gateway intricacies. Given more time, I believe I could have resolved these hurdles and fine-tuned the backend architecture.
+
+Authentication Roadblock and Workaround:
+Unfortunately, I faced authentication constraints during testing, which impacted the user authentication component's progress. As a result, I'd like to guide you to manually navigate to the product page using the URL http://localhost:3000/ since the login isn't functioning as intended.
+
+In summary, I would greatly appreciate the opportunity to discuss my application and the development approach I've outlined with your team. Given more time, I am confident that I could have achieved a fully functional backend and a more polished frontend. Despite the challenges faced, I remain enthusiastic about the potential of this project.
+
+Thank you for considering my submission.
